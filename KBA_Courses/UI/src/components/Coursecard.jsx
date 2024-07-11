@@ -2,8 +2,10 @@ import React from "react"
 import { useState } from "react"
 const Coursecard = ({course}) => {
 
-  const [viewFullDescription, setviewFullDescription] = useState(false)
+  const [viewFullDescription, setviewFullDescription] = useState(false);
+
   let description = course.description;
+  
   if(!viewFullDescription){
     description = description.substring(0,100)+ "...."
   }
