@@ -71,7 +71,7 @@ const AddRecipePage = () => {
                 </label>
                 <textarea
                   id="ingredients"
-                  name="ingredients"
+                  name="ingredients"  
                   className="border rounded w-full py-2 px-3"
                   rows="4"
                   placeholder="Ingredients Required"
@@ -104,7 +104,7 @@ const AddRecipePage = () => {
                   className="bg-purple-500 hover:bg-purple-600 my-10  text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
                   type="submit"
                 >
-                  Add Course
+                  Add Recipe
                 </button>
               </div>
             </form>

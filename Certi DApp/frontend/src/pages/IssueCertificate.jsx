@@ -22,12 +22,11 @@ const IssueCertificate = () => {
     };
     console.log("Date",date)
     const res = await addSubmitCertificate(newCertificate);
-    console.log(res);
     toast.success("Certificate Added Successfully");
   };
 
   const addSubmitCertificate = async (cert) => {
-    const res = await fetch('http://localhost:5173/certificates', {
+    const res = await fetch('http://localhost:5000/certificates', {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'

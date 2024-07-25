@@ -24,11 +24,11 @@ const RecipeCards = () => {
     return (
         <>
             
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mx-5 my-10'>
-                {recipe.map((recipe) => (
-                    <RecipeCard key={recipe._id} recipe={recipe} />
-                ))}
-            </div>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mx-5 my-10'>
+                    {recipe.map((recipe) => (
+                        <RecipeCard key={recipe._id} recipe={recipe} />
+                    ))}
+                </div>
         </>
     )
 }
